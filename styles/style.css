@@ -1,0 +1,67 @@
+#slot1{
+    width: 250px;
+}
+#slot2{
+    width: 250px;
+    
+}
+#slot3{
+    width: 250px;
+    
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+fieldset {
+    width:770px;
+    background-color: purple;
+    border: 2px solid black;
+}
+label {
+    width: 100px;
+    display: inline-block;
+}
+#output {
+  height: 40px;
+  min-height: 20px;
+  border: 3px solid black; 
+  width:753px; 
+  background-color: orangered;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+p {
+    color: white;
+    text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  1px -1px 0 #000; 
+                        
+}
+
+#creditoutput {
+ font-size: 30px;
+ 
+   }
+
+#winningsoutput {
+    font-size: 30px;
+    
+}
+
+#credtext {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="fruitMachine">
+    <title>Fruit Machine</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Fruit Machine</h1>
+    <form>
+        <fieldset>
+            <div id="credtext">
+            <p id="creditoutput" name="credit" min="0">
+                <label for="credit">Credit:</label> 
+            <p id="winningsoutput"name="winnings" min="0">
+                <label for="winnings"> Winnings:</label>   
+            </p>
+            </div>
+            <img id="slot1">
+            <img id="slot2">
+            <img id="slot3">
+            <p id="output">Please Add Credit to play</p>
+            <div id="button-container">
+                <button type="button" id="spin" name="spin">Spin</button>
+                <button type="button" id="addCredit" name="addCredit">Add Credit</button>
+                <button type="button" id="collect" name="collect">Collect Winnings</button>
+            </div>
+              </fieldset>
+        
+    </form>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
